@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galery Novels</title>
+	<link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtvcApSbTy9A-8td4iouUFbhD9onRjiNMXwg&usqp=CAU">
+	<link rel="stylesheet" type="text/css" href="stylecss.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- link fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body style="background-image: url(https://cf.shopee.co.id/file/070e33737a804a958d8b0d7f80b99713);">
+
+	 <!-- Ini Gallery -->
+    <div class="gallery_container_parent">
+        <div class="gallery_container">
+            <figure class="gallery_item item_1" onclick="openmodal();currentslide(1)">
+                <img src="https://www.gramedia.com/blog/content/images/2022/06/Cantik-Itu-Luka.jpg" style="height: 70%; width: 70%" alt="sc_image">
+                <figcaption class="caption">Novel Terlaris<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+            <figure class="gallery_item item_2" onclick="openmodal();currentslide(2)">
+                <img src="https://img.wattpad.com/cover/212093069-352-k564442.jpg" style="height: 100%; width: 100% alt="sc1_image">
+                <figcaption class="caption">Novel Terpopuler<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+            <figure class="gallery_item item_3" onclick="openmodal();currentslide(3)">
+                <img src="https://id-live-01.slatic.net/p/488ad7df804c8565c78180dac484663a.jpg" style="height: 100%; width: 100%" alt="sc2_image">
+                <figcaption class="caption">Novel Terbaru<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+            <figure class="gallery_item item_4" onclick="openmodal();currentslide(4)">
+                <img src="https://cf.shopee.co.id/file/f876ca2b3aa74f0e7e438515a8c9a256" style="height: 100%; width: 100%" alt="sc3_image">
+                <figcaption class="caption">Novel My Stupid Boss<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+            <figure class="gallery_item item_5" onclick="openmodal();currentslide(5)">
+                <img src="https://i.scdn.co/image/ab67616d0000b273384abf5fc2783757cc72419f" style="height: 80%; width: 80%" alt="sc4_image">
+                <figcaption class="caption">Novel Terpopuler Tahun 2015<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+            <figure class="gallery_item item_6" onclick="openmodal();currentslide(6)">
+                <img src="https://media.karousell.com/media/photos/products/2018/10/27/novel_romance_1540627042_96ad01f4.jpg" style="height: 100%; width: 100%" alt="sc5_image">
+                <figcaption class="caption">Novel Terbanyak Pembaca Di Wattpadd<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+     
+            <figure class="gallery_item item_7" onclick="openmodal();currentslide(7)">
+                <img src="https://cdn.gramedia.com/uploads/items/Saat_Saat_Jauh_cov.jpg" style="height: 100%; width: 100%" alt="sc6_image">
+                <figcaption class="caption">Novel Best Seller<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+
+            <figure class="gallery_item item_7" onclick="openmodal();currentslide(7)">
+                <img src="https://cf.shopee.co.id/file/d941163fffc9da524c0c60e452ab3120" style="height: 100%; width: 100%" alt="sc7_image">
+                <figcaption class="caption">Novel Best Seller<br><br> Tap To Zoom In <br> <i class="fas fa-search"></i> </figcaption>
+            </figure>
+        </div>
+    </div>
+     
+    <!-- Ini Lightbox  -->
+    <div class="lightbox_container">
+        <i class="fas fa-times" id="close"></i>
+        <div class="parent_navigation">
+            <span class="prev" id="ripple">&#10094;</span>
+            <span class="next" id="ripple">&#10095;</span>
+        </div>
+ 
+        <figure class="lightbox_item">
+            <img src="https://cdn.idntimes.com/content-images/community/2018/10/novel-laskar-pelangi-1534902651-9b97e1a2-39cab76ee694f6c1f4f5edf455fc8a3b.jpg" style="height: 60%; width: 60%" alt="sc_image">
+            <figcaption class="caption_lightbox">Novel Terlaris</figcaption>
+        </figure>
+ 
+        <figure class="lightbox_item">
+            <img src="https://ceklist.id/wp-content/uploads/2020/11/5.-Mariposa.jpg" style="height: 60%; width: 60%" alt="sc1_image">
+            <figcaption class="caption_lightbox">Novel Terpopuler</figcaption>
+        </figure>
+ 
+        <figure class="lightbox_item">
+            <img src="https://pickybest.id/wp-content/uploads/2020/12/Jingga-dan-Senja.jpg" style="height: 60%; width: 60%" alt="sc2_image">
+            <figcaption class="caption_lightbox">Novel Terbaru</figcaption>
+        </figure>
+ 
+        <figure class="lightbox_item">
+            <img src="https://lzd-img-global.slatic.net/g/p/04c2643f0f037f52f7f1ae8264ce8a2f.jpg_720x720q80.jpg_.webp" style="height: 60%; width: 60%" alt="sc3_image">
+            <figcaption class="caption_lightbox">Novel Terbaik</figcaption>
+        </figure>
+ 
+        <figure class="lightbox_item">
+             <img src="https://awsimages.detik.net.id/community/media/visual/2016/01/07/61ac7a6b-c28e-4ee1-ad3d-1b4b0a446561_34.jpg?w=700&q=90" style="height: 60%; width: 60%" alt="sc4_image">
+            <figcaption class="caption_lightbox">Novel Fiksi</figcaption>
+        </figure>
+ 
+        <figure class="lightbox_item">
+            <img src="https://cf.shopee.co.id/file/1aa07299da5e7e0ce666982c580ed0c3" style="height: 60%; width: 60%" alt="sc5_image">
+            <figcaption class="caption_lightbox">Novel Komedi</figcaption>
+        </figure>
+ 
+        <figure class="lightbox_item">
+            <img src="https://lzd-img-global.slatic.net/g/p/d6b2d6276031255024602989ecc9f578.jpg_720x720q80.jpg_.webp" style="height: 60%; width: 60%" alt="sc6_image">
+            <figcaption class="caption_lightbox">Novel Romance</figcaption>
+        </figure>
+
+        <figure class="lightbox_item">
+            <img src="https://cdnwpseller.gramedia.net/wp-content/uploads/2022/08/03232436/image003-207x300.png" style="height: 60%; width: 60%" alt="sc7_image">
+            <figcaption class="caption_lightbox">Novel dengan view pembaca terbanyak</figcaption>
+        </figure>
+    </div>
+ 
+    <!-- script javascript -->
+    <script src="bagianjs4.js"></script>
+
+ 
+</body>
+</html>
